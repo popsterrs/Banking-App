@@ -13,7 +13,7 @@ import SwiftUI
 struct TopBuffer: View {
     var body: some View {
         Spacer()
-            .frame(height: 60)
+            .frame(height: 45)
             .opacity(0)
     }
 }

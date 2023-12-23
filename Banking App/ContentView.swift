@@ -17,7 +17,6 @@ struct ContentView: View {
                 
                 TabView {
                     HomePageView()
-                        .ignoresSafeArea(.container, edges: .top)
                         .tabItem() {
                             Image(systemName: "house.fill")
                             Text("Home")
@@ -41,13 +40,14 @@ struct ContentView: View {
                 .onAppear() {
                     let tabBarAppearance = UITabBarAppearance()
                     tabBarAppearance.configureWithOpaqueBackground()
-                    tabBarAppearance.backgroundColor = UIColor.black
+                    tabBarAppearance.backgroundColor = UIColor.systemBackground
                     UITabBar.appearance().standardAppearance = tabBarAppearance
                 }
                 .tint(Color(UIColor.label))
             }
         }
 }
+
 
 #Preview {
     ContentView()

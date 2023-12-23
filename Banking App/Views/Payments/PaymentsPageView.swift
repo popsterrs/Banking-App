@@ -14,6 +14,8 @@ struct PaymentsPageView: View {
     var body: some View {
         CoreBodyView {
             Text("Payments Page")
+            Text("remove when complete, just here to make sure the tabview bottom bar isnt transparent")
+                .padding(.vertical, 10000)
         }
     }
 }

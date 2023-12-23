@@ -42,7 +42,7 @@ struct BalanceView: View {
                         .font(.callout)
                 }
                 .frame(width: 40, height: 40)
-                .background(Color(UIColor.systemOrange).opacity(0.1))
+                .background(Color(UIColor.systemRed).opacity(0.075))
                 .clipShape(Circle())
                 .padding()
                 .hAlign(.trailing)

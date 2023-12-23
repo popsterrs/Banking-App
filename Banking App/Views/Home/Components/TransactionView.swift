@@ -20,7 +20,7 @@ struct TransactionView: View {
                 .padding(.vertical, 10)
                 .hAlign(.leading)
             
-            ForEach(0..<50, id: \.self) { index in
+            ForEach(0..<15, id: \.self) { index in
                 Transaction(transactionDetails: TransactionDetails(name: getRandomName(), date: getRandomDate(), ammount: getRandomNumber()))
             }
             

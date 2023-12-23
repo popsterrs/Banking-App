@@ -27,11 +27,11 @@ struct CoreBodyView<Content: View>: View {
                 .padding()
                 .frame(width: geometry.size.width)
             }
-            .background(Color(UIColor.systemRed).opacity(0.075))
-            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
         }
+        .background(Color(UIColor.systemRed).opacity(0.075))
     }
 }
+
 
 #Preview {
     ContentView()

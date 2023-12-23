@@ -18,19 +18,21 @@ struct CoreBodyView<Content: View>: View {
     }
 
     var body: some View {
-        ScrollView {
-            VStack {
-                TopBuffer()
-                content()
+        GeometryReader { geometry in
+            ScrollView {
+                VStack {
+                    TopBuffer()
+                    content()
+                }
+                .padding()
+                .frame(width: geometry.size.width)
             }
+            .background(Color(UIColor.systemOrange).opacity(0.05))
+            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
         }
     }
 }
 
-struct CoreBodyView_Previews: PreviewProvider {
-    static var previews: some View {
-        CoreBodyView {
-            Text("Home Page")
-        }
-    }
+#Preview {
+    ContentView()
 }

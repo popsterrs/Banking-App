@@ -6,8 +6,6 @@
 //
 // Copyright © 2023
 // All Rights Reserved.s
-// All Rights Reserved.s
-
 
 import SwiftUI
 

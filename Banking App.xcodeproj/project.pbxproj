@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A3A5E672B3738A000C5819F /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A5E662B3738A000C5819F /* CapsuleButton.swift */; };
+		6A3A5E692B37397900C5819F /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A5E682B37397900C5819F /* HomePageView.swift */; };
+		6A3A5E6B2B37398C00C5819F /* PaymentsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A5E6A2B37398C00C5819F /* PaymentsPageView.swift */; };
+		6A3A5E6F2B373AEB00C5819F /* SupportPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A5E6E2B373AEB00C5819F /* SupportPageView.swift */; };
+		6A3A5E752B373B8700C5819F /* ManageCardPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A5E742B373B8700C5819F /* ManageCardPageView.swift */; };
 		6AD9FE1E2B37304400046BB2 /* Banking_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD9FE1D2B37304400046BB2 /* Banking_AppApp.swift */; };
 		6AD9FE202B37304400046BB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD9FE1F2B37304400046BB2 /* ContentView.swift */; };
 		6AD9FE222B37304700046BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD9FE212B37304700046BB2 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A3A5E662B3738A000C5819F /* CapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
+		6A3A5E682B37397900C5819F /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		6A3A5E6A2B37398C00C5819F /* PaymentsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsPageView.swift; sourceTree = "<group>"; };
+		6A3A5E6E2B373AEB00C5819F /* SupportPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportPageView.swift; sourceTree = "<group>"; };
+		6A3A5E742B373B8700C5819F /* ManageCardPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCardPageView.swift; sourceTree = "<group>"; };
 		6AD9FE1A2B37304400046BB2 /* Banking App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Banking App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD9FE1D2B37304400046BB2 /* Banking_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banking_AppApp.swift; sourceTree = "<group>"; };
 		6AD9FE1F2B37304400046BB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +42,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A3A5E6C2B373AD300C5819F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6A3A5E6D2B373ADD00C5819F /* Components */,
+				6A3A5E6E2B373AEB00C5819F /* SupportPageView.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		6A3A5E6D2B373ADD00C5819F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6A3A5E702B373AF900C5819F /* ManageCardPageView */ = {
+			isa = PBXGroup;
+			children = (
+				6A3A5E712B373B2300C5819F /* Components */,
+				6A3A5E742B373B8700C5819F /* ManageCardPageView.swift */,
+			);
+			path = ManageCardPageView;
+			sourceTree = "<group>";
+		};
+		6A3A5E712B373B2300C5819F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		6AD9FE112B37304400046BB2 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +93,10 @@
 		6AD9FE1C2B37304400046BB2 /* Banking App */ = {
 			isa = PBXGroup;
 			children = (
+				6AD9FE2E2B3730BA00046BB2 /* Views */,
+				6AD9FE2D2B3730B000046BB2 /* Models */,
+				6AD9FE2C2B3730A400046BB2 /* Helpers */,
+				6AD9FE2B2B37309800046BB2 /* Components */,
 				6AD9FE1D2B37304400046BB2 /* Banking_AppApp.swift */,
 				6AD9FE1F2B37304400046BB2 /* ContentView.swift */,
 				6AD9FE212B37304700046BB2 /* Assets.xcassets */,
@@ -65,6 +111,72 @@
 				6AD9FE242B37304700046BB2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AD9FE2B2B37309800046BB2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6A3A5E662B3738A000C5819F /* CapsuleButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6AD9FE2C2B3730A400046BB2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		6AD9FE2D2B3730B000046BB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6AD9FE2E2B3730BA00046BB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A3A5E702B373AF900C5819F /* ManageCardPageView */,
+				6A3A5E6C2B373AD300C5819F /* Support */,
+				6AD9FE302B3730FB00046BB2 /* Payments */,
+				6AD9FE2F2B3730E000046BB2 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6AD9FE2F2B3730E000046BB2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6AD9FE312B37312200046BB2 /* Components */,
+				6A3A5E682B37397900C5819F /* HomePageView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6AD9FE302B3730FB00046BB2 /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				6AD9FE322B37312B00046BB2 /* Components */,
+				6A3A5E6A2B37398C00C5819F /* PaymentsPageView.swift */,
+			);
+			path = Payments;
+			sourceTree = "<group>";
+		};
+		6AD9FE312B37312200046BB2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6AD9FE322B37312B00046BB2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3A5E6B2B37398C00C5819F /* PaymentsPageView.swift in Sources */,
+				6A3A5E6F2B373AEB00C5819F /* SupportPageView.swift in Sources */,
+				6A3A5E752B373B8700C5819F /* ManageCardPageView.swift in Sources */,
 				6AD9FE202B37304400046BB2 /* ContentView.swift in Sources */,
+				6A3A5E672B3738A000C5819F /* CapsuleButton.swift in Sources */,
+				6A3A5E692B37397900C5819F /* HomePageView.swift in Sources */,
 				6AD9FE1E2B37304400046BB2 /* Banking_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

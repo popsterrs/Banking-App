@@ -1,9 +1,12 @@
 //
-//  Banking_AppApp.swift
-//  Banking App
+// Banking_AppApp.swift
+// Banking App
 //
-//  Created by Jack Padbury on 23/12/2023.
+// Created by popsters on 23/12/2023
 //
+// Copyright © 2023
+// All Rights Reserved.
+
 
 import SwiftUI
 

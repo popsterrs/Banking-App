@@ -11,13 +11,25 @@
 import SwiftUI
 
 struct HomePageView: View {
+    let balance: Double = 30279.25
+    
     var body: some View {
         CoreBodyView {
-            Text("Home Page")
-        } 
+            BalanceView(balance: balance)
+            
+            Spacer()
+                .frame(height: 25)
+            
+            BankCardView()
+            
+            Spacer()
+                .frame(height: 25)
+            
+            TransactionView()
+        }
     }
 }
 
 #Preview {
-    HomePageView()
+    ContentView()
 }

@@ -46,7 +46,6 @@ struct ContentView: View {
                 }
                 .tint(Color(UIColor.label))
             }
-            .preferredColorScheme(.dark)
         }
 }
 

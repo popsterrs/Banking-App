@@ -19,5 +19,5 @@ struct SupportPageView: View {
 }
 
 #Preview {
-    SupportPageView()
+    ContentView()
 }

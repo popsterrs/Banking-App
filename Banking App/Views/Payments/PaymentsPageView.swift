@@ -19,5 +19,5 @@ struct PaymentsPageView: View {
 }
 
 #Preview {
-    PaymentsPageView()
+    ContentView()
 }

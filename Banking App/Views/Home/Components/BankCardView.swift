@@ -1,5 +1,5 @@
 //
-// ManageCardPageView.swift
+// BankCardView.swift
 // Banking App
 //
 // Created by popsters on 23/12/2023
@@ -10,11 +10,12 @@
 
 import SwiftUI
 
-struct ManageCardPageView: View {
+struct BankCardView: View {
     var body: some View {
-        CoreBodyView {
-            Text("Manage Card Page")
+        CardView(backgroundColor: Color(UIColor.label)) {
+            Text("9002-1244-5616-6136")
         }
+        .frame(height: 200)
     }
 }
 

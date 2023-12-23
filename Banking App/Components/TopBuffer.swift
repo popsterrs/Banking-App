@@ -1,5 +1,5 @@
 //
-// SupportPageView.swift
+// TopBuffer.swift
 // Banking App
 //
 // Created by popsters on 23/12/2023
@@ -10,14 +10,14 @@
 
 import SwiftUI
 
-struct SupportPageView: View {
+struct TopBuffer: View {
     var body: some View {
-        CoreBodyView {
-            Text("Support Page")
-        }
+        Spacer()
+            .frame(height: 60)
+            .opacity(0)
     }
 }
 
 #Preview {
-    SupportPageView()
+    TopBuffer()
 }

@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6A3A5E672B3738A000C5819F /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A5E662B3738A000C5819F /* CapsuleButton.swift */; };
-		6A3A5E692B37397900C5819F /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A5E682B37397900C5819F /* HomePageView.swift */; };
 		6A3A5E6B2B37398C00C5819F /* PaymentsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A5E6A2B37398C00C5819F /* PaymentsPageView.swift */; };
 		6A3A5E6F2B373AEB00C5819F /* SupportPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A5E6E2B373AEB00C5819F /* SupportPageView.swift */; };
 		6A3A5E752B373B8700C5819F /* ManageCardPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A5E742B373B8700C5819F /* ManageCardPageView.swift */; };
+		6A3A5E772B37420600C5819F /* CoreBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A5E762B37420600C5819F /* CoreBodyView.swift */; };
+		6A3A5E792B37434600C5819F /* TopBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A5E782B37434600C5819F /* TopBuffer.swift */; };
+		6A3A5E7B2B37460D00C5819F /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A5E7A2B37460D00C5819F /* HomePageView.swift */; };
 		6AD9FE1E2B37304400046BB2 /* Banking_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD9FE1D2B37304400046BB2 /* Banking_AppApp.swift */; };
 		6AD9FE202B37304400046BB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD9FE1F2B37304400046BB2 /* ContentView.swift */; };
 		6AD9FE222B37304700046BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD9FE212B37304700046BB2 /* Assets.xcassets */; };
@@ -20,10 +22,12 @@
 
 /* Begin PBXFileReference section */
 		6A3A5E662B3738A000C5819F /* CapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
-		6A3A5E682B37397900C5819F /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		6A3A5E6A2B37398C00C5819F /* PaymentsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsPageView.swift; sourceTree = "<group>"; };
 		6A3A5E6E2B373AEB00C5819F /* SupportPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportPageView.swift; sourceTree = "<group>"; };
 		6A3A5E742B373B8700C5819F /* ManageCardPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCardPageView.swift; sourceTree = "<group>"; };
+		6A3A5E762B37420600C5819F /* CoreBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBodyView.swift; sourceTree = "<group>"; };
+		6A3A5E782B37434600C5819F /* TopBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBuffer.swift; sourceTree = "<group>"; };
+		6A3A5E7A2B37460D00C5819F /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		6AD9FE1A2B37304400046BB2 /* Banking App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Banking App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD9FE1D2B37304400046BB2 /* Banking_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banking_AppApp.swift; sourceTree = "<group>"; };
 		6AD9FE1F2B37304400046BB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				6A3A5E662B3738A000C5819F /* CapsuleButton.swift */,
+				6A3A5E762B37420600C5819F /* CoreBodyView.swift */,
+				6A3A5E782B37434600C5819F /* TopBuffer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -151,7 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				6AD9FE312B37312200046BB2 /* Components */,
-				6A3A5E682B37397900C5819F /* HomePageView.swift */,
+				6A3A5E7A2B37460D00C5819F /* HomePageView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -254,8 +260,10 @@
 				6A3A5E752B373B8700C5819F /* ManageCardPageView.swift in Sources */,
 				6AD9FE202B37304400046BB2 /* ContentView.swift in Sources */,
 				6A3A5E672B3738A000C5819F /* CapsuleButton.swift in Sources */,
-				6A3A5E692B37397900C5819F /* HomePageView.swift in Sources */,
 				6AD9FE1E2B37304400046BB2 /* Banking_AppApp.swift in Sources */,
+				6A3A5E772B37420600C5819F /* CoreBodyView.swift in Sources */,
+				6A3A5E7B2B37460D00C5819F /* HomePageView.swift in Sources */,
+				6A3A5E792B37434600C5819F /* TopBuffer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

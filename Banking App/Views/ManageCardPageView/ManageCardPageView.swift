@@ -12,7 +12,9 @@ import SwiftUI
 
 struct ManageCardPageView: View {
     var body: some View {
-        Text("Manage Card Page View")
+        CoreBodyView {
+            Text("Manage Card Page")
+        }
     }
 }
 

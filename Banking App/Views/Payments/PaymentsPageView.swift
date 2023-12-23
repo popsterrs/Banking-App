@@ -12,7 +12,9 @@ import SwiftUI
 
 struct PaymentsPageView: View {
     var body: some View {
-        Text("Payments Page View")
+        CoreBodyView {
+            Text("Payments Page")
+        }
     }
 }
 

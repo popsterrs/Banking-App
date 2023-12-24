@@ -28,9 +28,6 @@ struct ManageCardPageView: View {
             Text("Apple pay")
             Text("Click to pay")
             
-            
-            
-            
             Text("remove when complete, just here to make sure the tabview bottom bar isnt transparent")
                 .padding(.vertical, 10000)
         }
